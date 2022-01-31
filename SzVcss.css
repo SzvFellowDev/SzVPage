@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+  }
+
 body 
 {
     margin:0;
@@ -26,7 +30,7 @@ body
 
 #list_container
 {
-    width: 100%;
+    float:left;
     height: 120px;
     position: relative;
     top: 8px;
@@ -35,9 +39,9 @@ body
 
 .link
 {
-    width: 30%;
     height: 40px;
-    margin: 10px;
+    margin: 25px;
+    padding: 6px;
     float:left;
     border-left: 2px solid #00d8d7;
     text-align: center;
@@ -45,31 +49,23 @@ body
     font-size: 200%;
 }
 
-#about
+#about-6
 {
-    height: 40%;
-    width: 670px;
-    position: relative;
-    float: right;
-    top:160px;
-    right: 250px;
     color: snow;
     border-radius: 44px;
 }
 
-#about > h2
+#about-6 > h2
 {
     text-align: right;
-    font-size: 120px;
     margin: 0;
     padding: 20px;
     text-shadow: 4px 4px 4px #00d8d7;
 }
 
-#about > p
+#about-6 > p
 {
     text-align: right;
-    font-size: 110px;
     text-shadow: 4px 4px 4px #00d8d7;
 }
 
@@ -131,3 +127,119 @@ a
 {
     font-size: 112px;
 }
+
+@media only screen and (max-width: 786px) 
+{
+    #about-1 {width: 8.33%;}
+    #about-2 {width: 16.66%;}
+    #about-3 {width: 25%;}
+    #about-4 {width: 33.33%;}
+    #about-5 {width: 41.66%;}
+    #about-6 {width: 50%;}
+    #about-7 {width: 58.33%;}
+    #about-8 {width: 66.66%;}
+    #about-9 {width: 75%;}
+    #about-10 {width: 83.33%;}
+    #about-11 {width: 91.66%;}
+    #about-12 {width: 100%;}
+    #about-6 > hr 
+    {
+        display: none;
+    }
+    
+    #about-6 > h2 {
+        font-size: 50px;
+    }
+    #about-6 > p {
+        font-size: 50px;
+    }
+
+    #about-6
+    {
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top:200px;
+    }
+}
+
+@media only screen and (min-width: 768px) 
+{
+    #about-1 {width: 8.33%;}
+    #about-2 {width: 16.66%;}
+    #about-3 {width: 25%;}
+    #about-4 {width: 33.33%;}
+    #about-5 {width: 41.66%;}
+    #about-6 {width: 50%;}
+    #about-7 {width: 58.33%;}
+    #about-8 {width: 66.66%;}
+    #about-9 {width: 75%;}
+    #about-10 {width: 83.33%;}
+    #about-11 {width: 91.66%;}
+    #about-12 {width: 100%;}
+        #about-6 > .h2
+        {
+            font-size: 120px;
+        }
+
+        #about-6 > .p
+        {
+            font-size: 60px;
+        }
+    }
+
+    @media only screen and (min-width: 600px) 
+    {
+    #about-1 {width: 8.33%;}
+    #about-2 {width: 16.66%;}
+    #about-3 {width: 25%;}
+    #about-4 {width: 33.33%;}
+    #about-5 {width: 41.66%;}
+    #about-6 {width: 50%;}
+    #about-7 {width: 58.33%;}
+    #about-8 {width: 66.66%;}
+    #about-9 {width: 75%;}
+    #about-10 {width: 83.33%;}
+    #about-11 {width: 91.66%;}
+    #about-12 {width: 100%;}
+    #about-6 > h2
+        {
+           font-size: 50px; 
+        }
+
+        #about-6 > p
+        {
+           font-size: 50px; 
+        }
+        #about-6
+        {
+           position: relative;
+           top:220px;
+           margin-left: auto;
+           margin-right: auto;
+        }
+    }
+
+    @media only screen and (min-width: 1200px) 
+{
+    #about-1 {width: 8.33%;}
+    #about-2 {width: 16.66%;}
+    #about-3 {width: 25%;}
+    #about-4 {width: 33.33%;}
+    #about-5 {width: 41.66%;}
+    #about-6 {width: 50%;}
+    #about-7 {width: 58.33%;}
+    #about-8 {width: 66.66%;}
+    #about-9 {width: 75%;}
+    #about-10 {width: 83.33%;}
+    #about-11 {width: 91.66%;}
+    #about-12 {width: 100%;}
+    #about-6
+    {
+        font-size: 20px;
+    }
+    }
+
+[class * ="about-"] {
+    width: 100%;
+  }
