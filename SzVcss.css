@@ -123,9 +123,22 @@ a
     text-decoration: none;
 }
 
-.error 
+.error404
 {
-    font-size: 112px;
+    text-align: center;
+}
+
+.error404 > p, .error404 > a, .error404 > .error
+{
+    color: snow;
+    position: relative;
+    top:200px;
+    text-shadow: 4px 4px 4px #00d8d7;
+}
+
+.error404 > .error
+{
+    font-size: 90px;
 }
 
 @media only screen and (max-width: 786px) 
