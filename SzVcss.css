@@ -233,6 +233,27 @@ a
         }
     }
 
+    @media only screen and (max-width: 600px) 
+    {
+    #about-1 {width: 8.33%;}
+    #about-2 {width: 16.66%;}
+    #about-3 {width: 25%;}
+    #about-4 {width: 33.33%;}
+    #about-5 {width: 41.66%;}
+    #about-6 {width: 50%;}
+    #about-7 {width: 58.33%;}
+    #about-8 {width: 66.66%;}
+    #about-9 {width: 75%;}
+    #about-10 {width: 83.33%;}
+    #about-11 {width: 91.66%;}
+    #about-12 {width: 100%;}
+
+        #about-6 > p
+        {
+           font-size: 30px; 
+        }
+    }
+
     @media only screen and (min-width: 1200px) 
 {
     #about-1 {width: 8.33%;}
